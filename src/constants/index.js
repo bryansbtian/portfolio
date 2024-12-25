@@ -3,7 +3,7 @@ import project2 from "../assets/projects/prj2.jpeg";
 import project3 from "../assets/projects/prj3.jpeg";
 import project4 from "../assets/projects/prj4.jpeg";
 
-export const HERO_CONTENT = `I am a junior student at the University of Michigan majoring in Computer Science and double majoring in Data Science with a strong passion for full-stack web development. My skills include programming languages like Python, Java, and C++, as well as expertise in web technologies such as ReactJS, NodeJS, ExpressJS, MongoDB, HTML5, CSS3, Tailwind CSS, Framer Motion, and JavaScript. I enjoy building dynamic and interactive web applications and continuously strive to enhance my knowledge and skills in the tech field.`;
+export const HERO_CONTENT = `I am a junior student at the University of Michigan majoring in Computer Science and double majoring in Data Science with a strong passion for full-stack web development. My skills include programming languages like Python, Java, Javascript, and C++, as well as expertise in technologies such as ReactJS, NodeJS, ExpressJS, MongoDB, HTML5, CSS3, Tailwind CSS, Framer Motion, PyTorch, TensorFlow, ResNet-50, and OpenCV. I enjoy building dynamic and interactive web applications and continuously strive to enhance my knowledge and skills in the tech field.`;
 
 export const ABOUT_TEXT = `I am a motivated and versatile full stack developer who is passionate about building efficient and user-friendly online applications. I've worked with several technologies, including React, Node.js, Express.js, and MongoDB. My interest in web development began with a profound curiosity about how things function, and it has grown into a career in which I always seek to learn and adapt to new difficulties. I thrive in collaborative settings and appreciate resolving challenging problems to produce high-quality results. Aside from coding, I enjoy remaining active by playing basketball, learning new technologies, and contributing to open-source projects.
 `;
@@ -27,18 +27,18 @@ export const EXPERIENCES = [
 
 export const PROJECTS = [
   {
-    title: "E-Commerce Website",
+    title: "Car Brand Classification",
     image: project1,
     description:
-      "Developed a full-featured eCommerce website with a user-friendly interface, integrated shopping cart, and responsive design.",
-    technologies: ["HTML", "CSS", "JavaScript", "React.js", "Node.js", "Express.js", "MongoDB"],
+      "Developed a machine learning model using Convolutional Neural Networks (CNNs) and transfer learning with the ResNet-50 architecture to classify car brands from images.",
+    technologies: ["Python", "PyTorch", "TensorFlow", "ResNet-50", "OpenCV"],
   },
   {
-    title: "Portfolio Website",
+    title: "e-Commerce Website",
     image: project2,
     description:
-      "Created a portfolio website to display projects created.",
-    technologies: ["HTML", "Tailwind CSS", "JavaScript", "React.js", "Framer Motion"],
+      "Developed a full-featured e-Commerce website with a user-friendly interface, integrated shopping cart, and responsive design.",
+    technologies: ["HTML", "CSS", "JavaScript", "React.js", "Node.js", "Express.js", "MongoDB"],
   },
   {
     title: "Self Watering Plant System",
@@ -59,5 +59,5 @@ export const PROJECTS = [
 export const CONTACT = {
   address: "Ann Arbor, Michigan 48105",
   phoneNo: "+1 (206) 931-3369",
-  email: "bryan.sebastian189@gmail.com",
+  email: "bryansusanto22@gmail.com",
 };
