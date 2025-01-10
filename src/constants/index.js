@@ -3,6 +3,7 @@ import project2 from "../assets/projects/prj2.jpeg";
 import project3 from "../assets/projects/prj3.jpeg";
 import project4 from "../assets/projects/prj4.jpeg";
 import project5 from "../assets/projects/prj5.jpeg";
+import project6 from "../assets/projects/prj6.jpeg";
 
 export const HERO_CONTENT = `I am a junior student at the University of Michigan majoring in Computer Science and double majoring in Data Science with a strong passion for full-stack web development and software engineering. My skills include programming languages like Python, Java, Javascript, and C++, as well as expertise in technologies such as ReactJS, NodeJS, ExpressJS, MongoDB, HTML5, CSS3, Tailwind CSS, Framer Motion, PyTorch, TensorFlow, ResNet-50, and OpenCV. I enjoy building dynamic and interactive web applications and continuously strive to enhance my knowledge and skills in the tech field.`;
 
@@ -29,15 +30,22 @@ achieving a 30% reduction in page load time while bolstering security measures t
 
 export const PROJECTS = [
   {
+    title: "Facial Emotion Detector",
+    image: project6,
+    description:
+      "Developed a real-time facial emotion detection system using Convolutional Neural Networks (CNNs) to classify emotions from facial expressions captured via webcam. Utilized OpenCV for face detection and TensorFlow for accurate emotion predictions across seven categories.",
+    technologies: ["Python", "TensorFlow", "OpenCV", "Haar Cascade Classifiers"],
+  },
+  {
     title: "Stock Market Prediction",
-    image: project1,
+    image: project5,
     description:
       "Designed a machine learning model to predict stock trends by analyzing historical data and simulating market scenarios, empowering users with strategic financial insights.",
     technologies: ["Python", "Pandas", "Scikit-Learn"],
   },
   {
     title: "Car Brand Classification",
-    image: project2,
+    image: project4,
     description:
       "Developed a machine learning model using Convolutional Neural Networks (CNNs) and transfer learning with the ResNet-50 architecture to classify car brands from images.",
     technologies: ["Python", "PyTorch", "TensorFlow", "ResNet-50", "OpenCV"],
@@ -51,14 +59,14 @@ export const PROJECTS = [
   },
   {
     title: "Self Watering Plant System",
-    image: project4,
+    image: project2,
     description:
       "Created an automated self-watering plant system that monitors soil moisture levels and waters plants as needed. The system uses sensors to detect when water is required and activates a pump to deliver the right amount, ensuring plants remain healthy with minimal manual intervention.",
     technologies: ["ArduinoUno", "C++"],
   },
   {
     title: "Smart Blind Stick",
-    image: project5,
+    image: project1,
     description:
       "Developed a smart blind stick with sensors for obstacle detection and navigation assistance. The stick provides real-time alerts by buzzing, enhancing safety and mobility for visually impaired individuals.",
     technologies: ["ArduinoUno", "C++"],
