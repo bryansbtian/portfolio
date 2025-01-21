@@ -95,17 +95,17 @@ export const PROJECTS = [
     ],
   },
   {
-    title: "Self Watering Plant System",
-    image: project2,
-    description:
-      "Created an automated self-watering plant system that monitors soil moisture levels and waters plants as needed. The system uses sensors to detect when water is required and activates a pump to deliver the right amount, ensuring plants remain healthy with minimal manual intervention.",
-    technologies: ["ArduinoUno", "C++"],
-  },
-  {
     title: "Smart Blind Stick",
     image: project1,
     description:
       "Developed a smart blind stick with sensors for obstacle detection and navigation assistance. The stick provides real-time alerts by buzzing, enhancing safety and mobility for visually impaired individuals.",
+    technologies: ["ArduinoUno", "C++"],
+  },
+  {
+    title: "Self Watering Plant System",
+    image: project2,
+    description:
+      "Created an automated self-watering plant system that monitors soil moisture levels and waters plants as needed. The system uses sensors to detect when water is required and activates a pump to deliver the right amount, ensuring plants remain healthy with minimal manual intervention.",
     technologies: ["ArduinoUno", "C++"],
   },
 ];
