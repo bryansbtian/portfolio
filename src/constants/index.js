@@ -4,6 +4,7 @@ import project3 from "../assets/projects/prj3.jpeg";
 import project4 from "../assets/projects/prj4.jpeg";
 import project5 from "../assets/projects/prj5.jpeg";
 import project6 from "../assets/projects/prj6.jpeg";
+import project7 from "../assets/projects/prj7.jpeg";
 
 export const HERO_CONTENT = `I am a junior student at the University of Michigan majoring in Computer Science and double majoring in Data Science with a strong passion for full-stack web development and software engineering. My skills include programming languages like Python, Java, Javascript, and C++, as well as expertise in technologies such as ReactJS, NodeJS, ExpressJS, MongoDB, HTML5, CSS3, Tailwind CSS, Framer Motion, PyTorch, TensorFlow, ResNet-50, and OpenCV. I enjoy building dynamic and interactive web applications and continuously strive to enhance my knowledge and skills in the tech field.`;
 
@@ -17,7 +18,15 @@ export const EXPERIENCES = [
     company: "Dark Paladin Pictures",
     description: `Optimized full-stack application performance by refactoring website code and implementing efficient workflows,
 achieving a 30% reduction in page load time while bolstering security measures to safeguard user data. Developed RESTful APIs to integrate front-end applications with back-end services, improving data flow efficiency. Collaborated with cross-functional teams, including marketing and product, to design and deploy robust web features, aligning with business objectives and user requirements.`,
-    technologies: ["HTML", "CSS", "JavaScript", "React.js", "Node.js", "Express.js", "MongoDB"],
+    technologies: [
+      "HTML",
+      "CSS",
+      "JavaScript",
+      "React.js",
+      "Node.js",
+      "Express.js",
+      "MongoDB",
+    ],
   },
   {
     year: "Nov 2023 - Jun 2024",
@@ -34,7 +43,27 @@ export const PROJECTS = [
     image: project6,
     description:
       "Developed a real-time facial emotion detection system using Convolutional Neural Networks (CNNs) to classify emotions from facial expressions captured via webcam. Utilized OpenCV for face detection and TensorFlow for accurate emotion predictions across seven categories.",
-    technologies: ["Python", "TensorFlow", "OpenCV", "Haar Cascade Classifiers"],
+    technologies: [
+      "Python",
+      "TensorFlow",
+      "OpenCV",
+      "Haar Cascade Classifiers",
+    ],
+  },
+  {
+    title: "Financial Data Filtering App",
+    image: project7,
+    description:
+      "Developed a React-based financial data filtering application with a dynamic and user-friendly interface, allowing users to sort and analyze financial data by date range, revenue, and net income. Integrated the Financial Modeling Prep API for real-time data fetching and leveraged React Table and Tailwind CSS for seamless interaction and responsive design.",
+    technologies: [
+      "HTML",
+      "CSS",
+      "JavaScript",
+      "React.js",
+      "React",
+      "Tailwind CSS",
+      "Financial Modeling Prep API",
+    ],
   },
   {
     title: "Stock Market Prediction",
@@ -55,7 +84,15 @@ export const PROJECTS = [
     image: project3,
     description:
       "Developed a full-featured e-commerce website with a user-friendly interface, integrated shopping cart, and responsive design.",
-    technologies: ["HTML", "CSS", "JavaScript", "React.js", "Node.js", "Express.js", "MongoDB"],
+    technologies: [
+      "HTML",
+      "CSS",
+      "JavaScript",
+      "React.js",
+      "Node.js",
+      "Express.js",
+      "MongoDB",
+    ],
   },
   {
     title: "Self Watering Plant System",
