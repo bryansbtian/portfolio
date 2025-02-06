@@ -5,6 +5,8 @@ import project4 from "../assets/projects/prj4.jpeg";
 import project5 from "../assets/projects/prj5.jpeg";
 import project6 from "../assets/projects/prj6.jpeg";
 import project7 from "../assets/projects/prj7.jpeg";
+import project8 from "../assets/projects/prj8.jpeg";
+import project9 from "../assets/projects/prj9.jpeg";
 
 export const HERO_CONTENT = `I am a junior student at the University of Michigan majoring in Computer Science and double majoring in Data Science with a strong passion for full-stack web development and software engineering. My skills include programming languages like Python, Java, Javascript, and C++, as well as expertise in technologies such as ReactJS, NodeJS, ExpressJS, MongoDB, HTML5, CSS3, Tailwind CSS, Framer Motion, PyTorch, TensorFlow, ResNet-50, and OpenCV. I enjoy building dynamic and interactive web applications and continuously strive to enhance my knowledge and skills in the tech field.`;
 
@@ -12,6 +14,18 @@ export const ABOUT_TEXT = `I am a motivated and versatile full stack developer w
 `;
 
 export const EXPERIENCES = [
+  {
+    year: "Jan 2025 - Present",
+    role: "Frontend Software Engineer Intern",
+    company: "SocialTech Labs",
+    description: `Developed a real-time live streaming feature using SwiftUI, enabling seamless video broadcasting and interactive audience engagement. Built interactive SwiftUI components such as live chat overlays, reaction animations, and dynamic audience polls to enhance user participation. Integrated RESTful APIs to support smooth video streaming, real-time comments, and viewer analytics, optimizing performance for a scalable and engaging user experience.`,
+    technologies: [
+      "SwiftUI",
+      "RESTful APIs",
+      "Amazon Web Services",
+      "HTTP Live Streaming",
+    ],
+  },
   {
     year: "Jun 2024 - Sep 2024",
     role: "Full Stack Software Engineer Intern",
@@ -26,6 +40,7 @@ achieving a 30% reduction in page load time while bolstering security measures t
       "Node.js",
       "Express.js",
       "MongoDB",
+      "RESTful APIs",
     ],
   },
   {
@@ -51,16 +66,29 @@ export const PROJECTS = [
     ],
   },
   {
+    title: "Mood Tracker App",
+    image: project8,
+    description:
+      "Developed a React.js-based mood tracking application with an Express.js backend, enabling users to log daily emotions and notes seamlessly. Integrated machine learning for predictive mood insights and weekly summaries, enhancing user self-awareness. Designed a responsive and interactive interface for a smooth tracking experience.",
+    technologies: [
+      "React.js",
+      "Express.js",
+      "Node.js",
+      "MongoDB",
+      "Python",
+      "RESTful APIs",
+    ],
+  },
+  {
     title: "Financial Data Filtering App",
     image: project7,
     description:
-      "Developed a React-based financial data filtering application with a dynamic and user-friendly interface, allowing users to sort and analyze financial data by date range, revenue, and net income. Integrated the Financial Modeling Prep API for real-time data fetching and leveraged React Table and Tailwind CSS for seamless interaction and responsive design.",
+      "Developed a React.js-based financial data filtering app with a dynamic UI, enabling users to sort and analyze financial data. Integrated Financial Modeling Prep API for real-time data and leveraged React Table & Tailwind CSS for seamless interaction.",
     technologies: [
       "HTML",
       "CSS",
       "JavaScript",
       "React.js",
-      "React",
       "Tailwind CSS",
       "Financial Modeling Prep API",
     ],
@@ -71,6 +99,13 @@ export const PROJECTS = [
     description:
       "Designed a machine learning model to predict stock trends by analyzing historical data and simulating market scenarios, empowering users with strategic financial insights.",
     technologies: ["Python", "Pandas", "Scikit-Learn"],
+  },
+  {
+    title: "Weather App",
+    image: project9,
+    description:
+      "Developed a responsive weather application integrating the OpenWeather API to provide real-time forecasts, historical weather data, and environmental metrics. Implemented features like current weather conditions with visual icons, 5-day forecasts, air quality index breakdown, sunrise/sunset times, and hourly temperature predictions, ensuring an intuitive and data-rich user experience.",
+    technologies: ["HTML", "CSS", "JavaScript", "OpenWeather API", "Fetch API"],
   },
   {
     title: "Car Brand Classification",
