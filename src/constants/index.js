@@ -16,6 +16,13 @@ export const ABOUT_TEXT = `I am a motivated and versatile full stack developer w
 export const EXPERIENCES = [
   {
     year: "Jan 2025 - Present",
+    role: "Software Engineer Intern",
+    company: "Cryonix AI",
+    description: `Developed and optimized machine learning models to enhance AI-driven applications' accuracy and efficiency. Implemented and integrated APIs to enable seamless data exchange between AI models and front-end applications. Conducted research on emerging AI technologies to drive innovation and improve company products.`,
+    technologies: ["HTML", "CSS", "Python Flask"],
+  },
+  {
+    year: "Sep 2024 - Dec 2024",
     role: "Frontend Software Engineer Intern",
     company: "SocialTech Labs",
     description: `Developed a real-time live streaming feature using SwiftUI, enabling seamless video broadcasting and interactive audience engagement. Built interactive SwiftUI components such as live chat overlays, reaction animations, and dynamic audience polls to enhance user participation. Integrated RESTful APIs to support smooth video streaming, real-time comments, and viewer analytics, optimizing performance for a scalable and engaging user experience.`,
