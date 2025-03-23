@@ -16,6 +16,18 @@ export const ABOUT_TEXT = `I am a motivated and versatile full stack developer w
 export const EXPERIENCES = [
   {
     year: "Jan 2025 - Present",
+    role: "Research Assistant",
+    company: "University of Michigan",
+    description: `Conducting research on data privacy and anonymization techniques for large language models (LLMs), focusing on protecting user data through efficient, local on-device processing. Collaborated on methods to anonymize prompts and prevent exposure of sensitive user information, ensuring compliance with privacy standards. Explored strategies to generate datasets that balance utility and privacy, identifying and mitigating risks tied to prompt structures and usage patterns.`,
+    technologies: [
+      "Python",
+      "Data Privacy",
+      "Large Language Models",
+      "Anonymization Techniques",
+    ],
+  },
+  {
+    year: "Jan 2025 - Present",
     role: "Software Engineer Intern",
     company: "Cryonix AI",
     description: `Developed and optimized machine learning models to enhance AI-driven applications' accuracy and efficiency. Implemented and integrated APIs to enable seamless data exchange between AI models and front-end applications. Conducted research on emerging AI technologies to drive innovation and improve company products.`,
