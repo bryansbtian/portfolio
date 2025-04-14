@@ -27,7 +27,7 @@ export const EXPERIENCES = [
     ],
   },
   {
-    year: "Jan 2025 - Present",
+    year: "Jan 2025 - Apr 2025",
     role: "Software Engineer Intern",
     company: "Cryonix AI",
     description: `Developed and optimized machine learning models to enhance AI-driven applications' accuracy and efficiency. Implemented and integrated APIs to enable seamless data exchange between AI models and front-end applications. Conducted research on emerging AI technologies to drive innovation and improve company products.`,
