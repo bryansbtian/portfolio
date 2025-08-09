@@ -15,14 +15,28 @@ export const ABOUT_TEXT = `I am a motivated and versatile full stack developer w
 
 export const EXPERIENCES = [
   {
-    year: "Jan 2025 - Present",
+    year: "May 2025 - Aug 2025",
+    role: "Risk Assurance - Data Analytics Intern ",
+    company: "PricewaterhouseCoopers",
+    description: `Developed a Generative AI-based financial analytics system for a leading Southeast Asian state enterprise bank, integrating large language models (LLMs) to summarize complex transactional trends and highlight anomalies in financial positions. Supported backend implementation of Model Context Protocol (MCP) tools and custom servers to orchestrate secure, modular execution of AI workflows, enabling scalable prompt-response pipelines across diverse financial data use cases. Streamlined daily insight generation by engineering asynchronous task execution and automating financial summary generation, improving data turnaround time and enhancing interpretability for both regional and national reporting levels.`,
+    technologies: [
+      "Python",
+      "Large Language Models (LLM)",
+      "Model Context Protocol (MCP)",
+      "Generative AI",
+      "Workflow Automation",
+      "Financial Risk Analysis",
+    ],
+  },
+  {
+    year: "Jan 2025 - May 2025",
     role: "Research Assistant",
     company: "University of Michigan",
-    description: `Conducting research on data privacy and anonymization techniques for large language models (LLMs), focusing on protecting user data through efficient, local on-device processing. Collaborated on methods to anonymize prompts and prevent exposure of sensitive user information, ensuring compliance with privacy standards. Explored strategies to generate datasets that balance utility and privacy, identifying and mitigating risks tied to prompt structures and usage patterns.`,
+    description: `Conducted research on data privacy and anonymization techniques for large language models (LLMs), focusing on protecting user data through efficient, local on-device processing. Collaborated on methods to anonymize prompts and prevent exposure of sensitive user information, ensuring compliance with privacy standards. Explored strategies to generate datasets that balance utility and privacy, identifying and mitigating risks tied to prompt structures and usage patterns.`,
     technologies: [
       "Python",
       "Data Privacy",
-      "Large Language Models",
+      "Large Language Models (LLM)",
       "Anonymization Techniques",
     ],
   },
