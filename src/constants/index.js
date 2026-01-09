@@ -15,8 +15,21 @@ export const ABOUT_TEXT = `I am a motivated and versatile full stack developer w
 
 export const EXPERIENCES = [
   {
+    year: "Jan 2026 - Dec 2026",
+    role: "Computer Vision Engineer",
+    company: "Hyundai America Technical Center (HATCI)",
+    description: `Developed a vision-based perception system for off-road autonomous vehicles using Python, OpenCV, PyTorch, and ROS to detect and localize soft, unmarked road boundaries in unstructured environments. Designed and implemented machine learning and image processing algorithms to infer road edges in scenarios lacking lane markings, curbs, or paved surfaces, enabling robust perception in challenging off-road conditions. Built a real-time closed-loop prototype that ingests live video, predicts boundary positions with confidence scoring, and feeds directly into the vehicle autonomy stack, allowing fully autonomous navigation across terrain without traditional road infrastructure.`,
+    technologies: [
+      "Python",
+      "Vision Language Models (VLM)",
+      "OpenCV",
+      "PyTorch",
+      "ROS (Robot Operating System)",
+    ],
+  },
+  {
     year: "May 2025 - Aug 2025",
-    role: "Risk Assurance - Data Analytics Intern ",
+    role: "Risk Assurance - Data Analytics Intern",
     company: "PricewaterhouseCoopers",
     description: `Developed a Generative AI-based financial analytics system for a leading Southeast Asian state enterprise bank, integrating large language models (LLMs) to summarize complex transactional trends and highlight anomalies in financial positions. Supported backend implementation of Model Context Protocol (MCP) tools and custom servers to orchestrate secure, modular execution of AI workflows, enabling scalable prompt-response pipelines across diverse financial data use cases. Streamlined daily insight generation by engineering asynchronous task execution and automating financial summary generation, improving data turnaround time and enhancing interpretability for both regional and national reporting levels.`,
     technologies: [
@@ -75,13 +88,6 @@ achieving a 30% reduction in page load time while bolstering security measures t
       "MongoDB",
       "RESTful APIs",
     ],
-  },
-  {
-    year: "Nov 2023 - Jun 2024",
-    role: "Theater Tech I",
-    company: "Shoreline Community College",
-    description: `Enhanced technical operations by deploying a ticketing system for software issues, resulting in over 100 resolved inquiries per month and enabling the production team to focus on creative tasks rather than technical challenges. Secured digital equipment through regular updates and maintenance, ensuring operational safety.`,
-    technologies: [],
   },
 ];
 
