@@ -17,7 +17,7 @@ export const EXPERIENCES = [
   {
     year: "Jan 2026 - Dec 2026",
     role: "Computer Vision Engineer",
-    company: "Hyundai America Technical Center (HATCI)",
+    company: "Hyundai America Technical Center, Inc. (HATCI)",
     description: `Developed a vision-based perception system for off-road autonomous vehicles using Python, OpenCV, PyTorch, and ROS to detect and localize soft, unmarked road boundaries in unstructured environments. Designed and implemented machine learning and image processing algorithms to infer road edges in scenarios lacking lane markings, curbs, or paved surfaces, enabling robust perception in challenging off-road conditions. Built a real-time closed-loop prototype that ingests live video, predicts boundary positions with confidence scoring, and feeds directly into the vehicle autonomy stack, allowing fully autonomous navigation across terrain without traditional road infrastructure.`,
     technologies: [
       "Python",
@@ -28,8 +28,22 @@ export const EXPERIENCES = [
     ],
   },
   {
+    year: "May 2026 - Aug 2026",
+    role: "AI / Cloud Engineering Intern",
+    company: "Trend AI",
+    description: `Designed and engineered cloud telemetry and remote diagnostics workflows for Vision One-connected SMS devices, enabling 15-minute collection of usage, system health, feature adoption, and connection-state signals into AWS-backed storage and analytics pipelines. Implemented secure remote log bundle retrieval with encrypted transfer, retryable collection workflows, access-controlled storage, and retention policies for support and engineering investigation. Built an MCP/Claude telemetry query layer to support AI-assisted triage, allowing engineers to analyze customer health, version adoption, error trends, and system alerts by customer, time range, version, and metric type.`,
+    technologies: [
+      "Java",
+      "AWS S3",
+      "AWS Glue",
+      "Amazon Athena",
+      "Model Context Protocol (MCP)",
+      "Secure Cloud Storage",
+    ],
+  },
+  {
     year: "May 2025 - Aug 2025",
-    role: "Risk Assurance - Data Analytics Intern",
+    role: "AI Engineer Intern",
     company: "PricewaterhouseCoopers",
     description: `Developed a Generative AI-based financial analytics system for a leading Southeast Asian state enterprise bank, integrating large language models (LLMs) to summarize complex transactional trends and highlight anomalies in financial positions. Supported backend implementation of Model Context Protocol (MCP) tools and custom servers to orchestrate secure, modular execution of AI workflows, enabling scalable prompt-response pipelines across diverse financial data use cases. Streamlined daily insight generation by engineering asynchronous task execution and automating financial summary generation, improving data turnaround time and enhancing interpretability for both regional and national reporting levels.`,
     technologies: [
@@ -62,7 +76,7 @@ export const EXPERIENCES = [
   },
   {
     year: "Sep 2024 - Dec 2024",
-    role: "Frontend Software Engineer Intern",
+    role: "Software Engineer Intern",
     company: "SocialTech Labs",
     description: `Developed a real-time live streaming feature using SwiftUI, enabling seamless video broadcasting and interactive audience engagement. Built interactive SwiftUI components such as live chat overlays, reaction animations, and dynamic audience polls to enhance user participation. Integrated RESTful APIs to support smooth video streaming, real-time comments, and viewer analytics, optimizing performance for a scalable and engaging user experience.`,
     technologies: [
@@ -74,7 +88,7 @@ export const EXPERIENCES = [
   },
   {
     year: "Jun 2024 - Sep 2024",
-    role: "Full Stack Software Engineer Intern",
+    role: "Software Engineer Intern",
     company: "Dark Paladin Pictures",
     description: `Optimized full-stack application performance by refactoring website code and implementing efficient workflows,
 achieving a 30% reduction in page load time while bolstering security measures to safeguard user data. Developed RESTful APIs to integrate front-end applications with back-end services, improving data flow efficiency. Collaborated with cross-functional teams, including marketing and product, to design and deploy robust web features, aligning with business objectives and user requirements.`,
