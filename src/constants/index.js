@@ -31,8 +31,10 @@ export const EXPERIENCES = [
     year: "May 2026 - Aug 2026",
     role: "AI / Cloud Engineering Intern",
     company: "Trend AI",
-    description: `Designed and engineered cloud telemetry and remote diagnostics workflows for Vision One-connected SMS devices, enabling 15-minute collection of usage, system health, feature adoption, and connection-state signals into AWS-backed storage and analytics pipelines. Implemented secure remote log bundle retrieval with encrypted transfer, retryable collection workflows, access-controlled storage, and retention policies for support and engineering investigation. Built an MCP/Claude telemetry query layer to support AI-assisted triage, allowing engineers to analyze customer health, version adoption, error trends, and system alerts by customer, time range, version, and metric type.`,
+    description: `Engineered cloud telemetry and remote diagnostics workflows for enterprise security appliances, enabling 15-minute collection of usage, system health, feature adoption, and connectivity signals into AWS-backed storage and analytics pipelines. Implemented secure remote log retrieval with encrypted transfer, retry handling, access-controlled storage, retention policies, and rule-based support alerts featuring severity scoring, deduplication, cooldowns, and automated Jira routing. Built a Model Context Protocol (MCP) telemetry interface for natural-language, AI-assisted investigation, allowing engineers to query customer health, version adoption, error trends, and system alerts while powering evidence-backed in-app notifications with patch, upgrade, or support remediation paths.`,
     technologies: [
+      "Go",
+      "Python",
       "Java",
       "AWS S3",
       "AWS Glue",
