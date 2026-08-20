@@ -1,12 +1,3 @@
-import project1 from "../assets/projects/prj1.jpeg";
-import project2 from "../assets/projects/prj2.jpeg";
-import project3 from "../assets/projects/prj3.jpeg";
-import project4 from "../assets/projects/prj4.jpeg";
-import project5 from "../assets/projects/prj5.jpeg";
-import project6 from "../assets/projects/prj6.jpeg";
-import project7 from "../assets/projects/prj7.jpeg";
-import project8 from "../assets/projects/prj8.jpeg";
-import project9 from "../assets/projects/prj9.jpeg";
 
 export const HERO_CONTENT = `I am a senior at the University of Michigan majoring in Computer Science and double majoring in Data Science with a strong passion for full-stack web development and software engineering. My skills include programming languages like Python, Java, Javascript, and C++, as well as expertise in technologies such as ReactJS, NodeJS, ExpressJS, MongoDB, HTML5, CSS3, Tailwind CSS, Framer Motion, PyTorch, TensorFlow, ResNet-50, and OpenCV. I enjoy building dynamic and interactive web applications and continuously strive to enhance my knowledge and skills in the tech field.`;
 
@@ -109,8 +100,31 @@ achieving a 30% reduction in page load time while bolstering security measures t
 
 export const PROJECTS = [
   {
+    title: "Replay AI",
+    description:
+      "Developed a computer-use automation system powered by a local LLM that discovers UI workflows and compiles them into reusable, typed capabilities for deterministic execution without an LLM in the runtime loop. Built a policy-controlled browser automation engine with Playwright, featuring structured execution evidence, failure recovery, and seamless human handoff while preserving browser state.",
+    technologies: [
+      "Browser Automation",
+      "Large Language Models (LLM)",
+      "TypeScript",
+      "AI-Powered Development",
+      "Software Testing",
+    ],
+  },
+  {
+    title: "Toran",
+    description:
+      "Developed a secure file-sharing platform with expiring links, password protection, download limits, link revocation, and multi-file sharing through a single URL. Designed a direct-to-object-storage architecture using short-lived presigned URLs, private storage, background malware scanning, and atomic download-limit enforcement, ensuring file contents never pass through the application server.",
+    technologies: [
+      "Next.js",
+      "Node.js",
+      "PostgreSQL",
+      "Application Security",
+      "Software Testing",
+    ],
+  },
+  {
     title: "Facial Emotion Detector",
-    image: project6,
     description:
       "Developed a real-time facial emotion detection system using Convolutional Neural Networks (CNNs) to classify emotions from facial expressions captured via webcam. Utilized OpenCV for face detection and TensorFlow for accurate emotion predictions across seven categories.",
     technologies: [
@@ -122,7 +136,6 @@ export const PROJECTS = [
   },
   {
     title: "Mood Tracker App",
-    image: project8,
     description:
       "Developed a React.js-based mood tracking application with an Express.js backend, enabling users to log daily emotions and notes seamlessly. Integrated machine learning for predictive mood insights and weekly summaries, enhancing user self-awareness. Designed a responsive and interactive interface for a smooth tracking experience.",
     technologies: [
@@ -136,7 +149,6 @@ export const PROJECTS = [
   },
   {
     title: "Financial Data Filtering App",
-    image: project7,
     description:
       "Developed a React.js-based financial data filtering app with a dynamic UI, enabling users to sort and analyze financial data. Integrated Financial Modeling Prep API for real-time data and leveraged React Table & Tailwind CSS for seamless interaction.",
     technologies: [
@@ -150,28 +162,24 @@ export const PROJECTS = [
   },
   {
     title: "Stock Market Prediction",
-    image: project5,
     description:
       "Designed a machine learning model to predict stock trends by analyzing historical data and simulating market scenarios, empowering users with strategic financial insights.",
     technologies: ["Python", "Pandas", "Scikit-Learn"],
   },
   {
     title: "Weather App",
-    image: project9,
     description:
       "Developed a responsive weather application integrating the OpenWeather API to provide real-time forecasts, historical weather data, and environmental metrics. Implemented features like current weather conditions with visual icons, 5-day forecasts, air quality index breakdown, sunrise/sunset times, and hourly temperature predictions, ensuring an intuitive and data-rich user experience.",
     technologies: ["HTML", "CSS", "JavaScript", "OpenWeather API", "Fetch API"],
   },
   {
     title: "Car Brand Classification",
-    image: project4,
     description:
       "Developed a machine learning model using Convolutional Neural Networks (CNNs) and transfer learning with the ResNet-50 architecture to classify car brands from images.",
     technologies: ["Python", "PyTorch", "TensorFlow", "ResNet-50", "OpenCV"],
   },
   {
     title: "E-commerce Website",
-    image: project3,
     description:
       "Developed a full-featured e-commerce website with a user-friendly interface, integrated shopping cart, and responsive design.",
     technologies: [
@@ -186,14 +194,12 @@ export const PROJECTS = [
   },
   {
     title: "Smart Blind Stick",
-    image: project1,
     description:
       "Developed a smart blind stick with sensors for obstacle detection and navigation assistance. The stick provides real-time alerts by buzzing, enhancing safety and mobility for visually impaired individuals.",
     technologies: ["ArduinoUno", "C++"],
   },
   {
     title: "Self Watering Plant System",
-    image: project2,
     description:
       "Created an automated self-watering plant system that monitors soil moisture levels and waters plants as needed. The system uses sensors to detect when water is required and activates a pump to deliver the right amount, ensuring plants remain healthy with minimal manual intervention.",
     technologies: ["ArduinoUno", "C++"],
