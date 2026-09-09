@@ -15,13 +15,13 @@ const Hero = () => {
   return (
     <div className="border-b border-neutral-900 pb-4 lg:mb-35">
       <div className="flex flex-wrap">
-        <div className="w-full lg:w-1/2 lg:pl-8 2xl:pl-16">
-          <div className="flex flex-col items-centers lg:items-start">
+        <div className="w-full lg:w-1/2 lg:pl-4 xl:pl-8 2xl:pl-16">
+          <div className="flex flex-col items-center lg:items-start">
             <motion.h1
               variants={container(0)}
               initial="hidden"
               animate="visible"
-              className="pb-16 text-6xl font-thin trackting-tight lg:mt-16 lg:text-8xl"
+              className="pb-8 text-6xl font-thin tracking-tight lg:mt-12 lg:text-7xl xl:pb-16 xl:text-8xl"
             >
               Bryan Susanto
             </motion.h1>
@@ -30,7 +30,7 @@ const Hero = () => {
               initial="hidden"
               animate="visible"
               className="bg-gradient-to-r from-pink-300 via-slate-500 to-purple-500 
-                bg-clip-text text-3xl tracking-tight text-transparent"
+                bg-clip-text text-2xl tracking-tight text-transparent xl:text-3xl"
             >
               Rising Senior
             </motion.span>
@@ -38,16 +38,16 @@ const Hero = () => {
               variants={container(1)}
               initial="hidden"
               animate="visible"
-              className="my-2 max-w-xl py-6 font-light tracking-tighter"
+              className="my-2 max-w-xl py-4 font-light tracking-tighter xl:py-6"
             >
               {HERO_CONTENT}
             </motion.p>
           </div>
         </div>
         <div className="w-full lg:w-1/2 lg:py-8">
-          <div className="flex justify-center lg:ml-16 lg:max-w-xl lg:justify-end">
+          <div className="flex justify-center lg:ml-4 lg:justify-end xl:ml-16">
             <motion.img
-              className="rounded-2xl lg:max-w-[560px]"
+              className="rounded-2xl lg:w-full lg:max-w-[440px] xl:max-w-[500px] 2xl:max-w-[560px]"
               initial={{ x: 100, opacity: 0 }}
               animate={{ x: 0, opacity: 1 }}
               transition={{ duration: 1, delay: 1.2 }}
