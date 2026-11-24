@@ -6,7 +6,7 @@
       "year": "Jan 2026 - Dec 2026",
       "role": "Computer Vision Engineer",
       "company": "Hyundai America Technical Center, Inc. (HATCI)",
-      "description": "Developed a vision-based perception system for off-road autonomous vehicles using Python, OpenCV, PyTorch, and ROS to detect and localize soft, unmarked road boundaries in unstructured environments. Designed and implemented machine learning and image processing algorithms to infer road edges in scenarios lacking lane markings, curbs, or paved surfaces, enabling robust perception in challenging off-road conditions. Built a real-time closed-loop prototype that ingests live video, predicts boundary positions with confidence scoring, and feeds directly into the vehicle autonomy stack, allowing fully autonomous navigation across terrain without traditional road infrastructure.",
+      "description": "Developed an end-to-end vision-based autonomy system for off-road vehicles using Python, OpenCV, PyTorch, and ROS, integrating perception, trajectory planning, and control. Implemented deep learning and computer vision algorithms to detect drivable terrain and unmarked road boundaries in unstructured environments, optimizing for real-time inference on edge hardware. Designed and validated a closed-loop autonomous navigation system in simulation before successfully deploying and testing the complete autonomy pipeline on a physical vehicle, demonstrating autonomous off-road navigation without human intervention or traditional road infrastructure.",
       "technologies": [
         "Python",
         "Vision Language Models (VLM)",
